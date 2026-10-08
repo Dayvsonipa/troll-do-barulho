@@ -5,6 +5,7 @@ Arquivos:
 - style.css: cores, layout responsivo e animações.
 - app.js: leitura do microfone, expressões e demonstração.
 - objects.js: 17 itens desenhados, ações, soneca e gesto de silêncio.
+- session.js: áudio sintetizado, escala de sensibilidade e gráficos de tempo.
 
 COMO USAR
 1. Extraia o ZIP e abra a pasta no VSCode.
@@ -18,7 +19,7 @@ COMO USAR
 
 PUBLICAÇÃO
 É um site estático: não precisa de banco de dados, npm ou servidor de aplicação.
-Publique os quatro arquivos juntos em uma hospedagem estática com HTTPS.
+Publique os cinco arquivos juntos em uma hospedagem estática com HTTPS.
 
 O áudio é processado no navegador e não é gravado nem enviado.
 O nível de 0 a 100 é relativo, não uma medição calibrada em decibéis.
@@ -34,3 +35,15 @@ Objetos trocam a cada 10 segundos, sem repetir no mesmo ciclo.
 Após 20 segundos de silêncio com medição ativa ou demonstração, o troll dorme.
 Quando o volume aumenta ele acorda. O botão Pedir silêncio aciona o Xiiii.
 As animações respeitam a preferência de movimento reduzido do dispositivo.
+
+NOVIDADES DA VERSÃO 3
+Crochê, livro, caderno, videogame, ukulele, pedra e coberta usam as duas mãos.
+Som SHIIIIIIII sintetizado no navegador, sem arquivos de áudio externos.
+Clique em Testar som para ouvir. A caixa Som permite silenciar o aviso.
+Avisos automáticos ao subir de humor respeitam intervalo de 15 segundos.
+A medição ignora brevemente o áudio emitido pelo troll para evitar realimentação.
+Sensibilidade: 1 a 100; valor inicial 25. Comece baixo e ajuste para a sala.
+Gráficos com rostinhos, tempo acumulado e porcentagens para cada humor.
+Contagem pausada quando o microfone é desligado ou a página é ocultada.
+Microfone e demonstração possuem contagens separadas. Zerar reinicia a atual.
+Os tempos só ficam na sessão atual; recarregar a página reinicia a contagem.
