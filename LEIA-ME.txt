@@ -4,7 +4,7 @@ Arquivos:
 - index.html: estrutura e desenho SVG do troll.
 - style.css: cores, layout responsivo e animações.
 - app.js: leitura do microfone, expressões e demonstração.
-- objects.js: 17 itens desenhados, ações, soneca e gesto de silêncio.
+- objects.js: 16 itens desenhados, ações, soneca e gesto de silêncio.
 - session.js: áudio sintetizado, escala de sensibilidade e gráficos de tempo.
 
 COMO USAR
@@ -27,7 +27,7 @@ As fontes do Google são opcionais; sem internet, fontes locais são utilizadas.
 
 NOVIDADES DA VERSÃO 2
 Entrada andando, braços articulados e ações diferentes para cada item.
-10 atividades tranquilas: livro, crochê, chá, flor, lápis e caderno, lupa,
+9 atividades tranquilas: livro, crochê, flor, lápis e caderno, lupa,
 videogame, ukulele, regador e coberta com soneca.
 7 objetos de raiva: taco de baseball, pedra, martelo de brinquedo,
 luva de boxe, escudo, megafone e placa de silêncio.
@@ -57,3 +57,6 @@ evitam que o conteúdo cause rolagem horizontal.
 
 VERSÃO 5
 O braço que segura a bebida fica parado, sem levantar nem girar.
+
+VERSÃO 6
+Bebida retirada do sorteio. Agora há 9 atividades tranquilas e 7 objetos de raiva.
