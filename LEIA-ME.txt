@@ -54,3 +54,6 @@ painel de tempo à direita (20%). Troll maior no centro.
 Até 900px os painéis são empilhados, com o troll primeiro.
 Colunas flexíveis, textos com quebra e contenção da animação de entrada
 evitam que o conteúdo cause rolagem horizontal.
+
+VERSÃO 5
+O braço que segura a bebida fica parado, sem levantar nem girar.
