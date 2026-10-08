@@ -4,6 +4,7 @@ Arquivos:
 - index.html: estrutura e desenho SVG do troll.
 - style.css: cores, layout responsivo e animações.
 - app.js: leitura do microfone, expressões e demonstração.
+- objects.js: 17 itens desenhados, ações, soneca e gesto de silêncio.
 
 COMO USAR
 1. Extraia o ZIP e abra a pasta no VSCode.
@@ -17,8 +18,19 @@ COMO USAR
 
 PUBLICAÇÃO
 É um site estático: não precisa de banco de dados, npm ou servidor de aplicação.
-Publique os três arquivos juntos em uma hospedagem estática com HTTPS.
+Publique os quatro arquivos juntos em uma hospedagem estática com HTTPS.
 
 O áudio é processado no navegador e não é gravado nem enviado.
 O nível de 0 a 100 é relativo, não uma medição calibrada em decibéis.
 As fontes do Google são opcionais; sem internet, fontes locais são utilizadas.
+
+NOVIDADES DA VERSÃO 2
+Entrada andando, braços articulados e ações diferentes para cada item.
+10 atividades tranquilas: livro, crochê, chá, flor, lápis e caderno, lupa,
+videogame, ukulele, regador e coberta com soneca.
+7 objetos de raiva: taco de baseball, pedra, martelo de brinquedo,
+luva de boxe, escudo, megafone e placa de silêncio.
+Objetos trocam a cada 10 segundos, sem repetir no mesmo ciclo.
+Após 20 segundos de silêncio com medição ativa ou demonstração, o troll dorme.
+Quando o volume aumenta ele acorda. O botão Pedir silêncio aciona o Xiiii.
+As animações respeitam a preferência de movimento reduzido do dispositivo.
