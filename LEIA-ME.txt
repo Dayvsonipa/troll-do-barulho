@@ -47,3 +47,10 @@ Gráficos com rostinhos, tempo acumulado e porcentagens para cada humor.
 Contagem pausada quando o microfone é desligado ou a página é ocultada.
 Microfone e demonstração possuem contagens separadas. Zerar reinicia a atual.
 Os tempos só ficam na sessão atual; recarregar a página reinicia a contagem.
+
+VERSÃO 4
+Desktop: painel de controles à esquerda (20%), troll ao centro (60%) e
+painel de tempo à direita (20%). Troll maior no centro.
+Até 900px os painéis são empilhados, com o troll primeiro.
+Colunas flexíveis, textos com quebra e contenção da animação de entrada
+evitam que o conteúdo cause rolagem horizontal.
