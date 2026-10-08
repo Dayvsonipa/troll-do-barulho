@@ -1,0 +1,24 @@
+TROLL DO BARULHO
+
+Arquivos:
+- index.html: estrutura e desenho SVG do troll.
+- style.css: cores, layout responsivo e animações.
+- app.js: leitura do microfone, expressões e demonstração.
+
+COMO USAR
+1. Extraia o ZIP e abra a pasta no VSCode.
+2. Para ver a interface e a demonstração, abra index.html no navegador.
+3. Para testar o microfone, prefira servir o site por localhost ou publicar em HTTPS.
+   Se você já tiver Python instalado, abra o terminal nesta pasta e execute:
+   python -m http.server 8000
+   Depois acesse http://localhost:8000 e clique em Ativar microfone.
+   Alternativamente, use a extensão Live Server do VSCode, se disponível.
+4. Permita o acesso ao microfone e ajuste a sensibilidade.
+
+PUBLICAÇÃO
+É um site estático: não precisa de banco de dados, npm ou servidor de aplicação.
+Publique os três arquivos juntos em uma hospedagem estática com HTTPS.
+
+O áudio é processado no navegador e não é gravado nem enviado.
+O nível de 0 a 100 é relativo, não uma medição calibrada em decibéis.
+As fontes do Google são opcionais; sem internet, fontes locais são utilizadas.
